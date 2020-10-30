@@ -19,7 +19,7 @@ module.exports = {
   output: {
     filename: '[name].[chunkhash:8].js',
     path: dist,
-    publicPath: '/'
+    publicPath: '/arith'
   },
   module: {
     rules: [
