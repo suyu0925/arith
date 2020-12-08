@@ -11,7 +11,8 @@ const mode = process.env.NODE_ENV === 'development' ? 'development' : 'productio
 module.exports = {
   mode,
   devServer: {
-    open: true
+    open: true,
+    openPage: 'arith'
   },
   entry: {
     app: resolve(src, 'index.js')
